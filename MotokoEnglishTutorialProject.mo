@@ -14,7 +14,7 @@ actor LagaLuga {
   stable var trWords = List.nil<Text>();
   stable var random : Nat = 0;
 
-  public func getWords(x : Text, y : Text) : async () {
+  public func AddWord(x : Text, y : Text) : async () {
     enWords := List.push(x, enWords);
     trWords := List.push(y, trWords);
   };
@@ -31,7 +31,7 @@ actor LagaLuga {
     };
   };
 
-  public func Answer(answer : Text) : async ?Bool {
+  public func YourAnswer(answer : Text) : async ?Bool {
     let trWordsSize : Nat = List.size<Text>(trWords);
     if (trWordsSize != 0) {
       let setRandomWord : ?Text = List.get(trWords, random);
