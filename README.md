@@ -22,19 +22,3 @@ Bu proje, İngilizce kelimeleri ve Türkçe karşılıklarını kaydederek kendi
   
 - **YourAnswer(answer)**  
   Verilen cevabın doğru olup olmadığını kontrol eder.
-
----
-
-### Örnek Kullanım
-
-```motoko
-// 1. Kelime ekleyin
-await LagaLuga.AddWord("apple", "elma");
-
-// 2. Soru sorun
-let question = await LagaLuga.Question();
-// Örneğin: "apple"
-
-// 3. Cevabınızı kontrol edin
-let result = await LagaLuga.YourAnswer("elma");
-// true (Doğru) veya false (Yanlış)
