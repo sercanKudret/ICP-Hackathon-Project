@@ -15,10 +15,10 @@ Bu proje, İngilizce kelimeleri ve Türkçe karşılıklarını kaydederek kendi
 ### Kullanılabilir Fonksiyonlar
 
 - **AddWord(x, y)**  
-  İngilizce (`x`) ve Türkçe (`y`) kelimeyi listeye ekler.
+  İngilizce (`x`) ve Türkçe (`y`) kelimeyi listeye eklemenizi ister.
   
 - **Question()**  
-  Rastgele bir İngilizce kelime döner.
+  Rastgele bir İngilizce kelime sorusu döner.
   
 - **YourAnswer(answer)**  
-  Verilen cevabın doğru olup olmadığını kontrol eder.
+  Verdiğiniz cevabın doğru olup olmadığını kontrol eder.
